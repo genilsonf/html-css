@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+    <style>
+        /*Toda essa parte de código geralmente vai em um arquivo externo chamado style.css*/
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        /*Isso aqui diz que o parágrafo é um filho da div*/
+        div > p {
+            display: none;
+        }
+
+        /*Isso aqui mostra o texto da div só quando passa o mouse em cima*/
+        div:hover > p {
+            display: block;
+            color: blueviolet;
+            background-color: chartreuse;
+            width: 110px;
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: blue
+        }
+
+        a:active{
+            color: greenyellow;
+        }
+
+        a:hover{
+            color: red
+        }
+
+        .especial::before{
+            content: '⇛'
+        }
+        
+        .especial::after{
+            content: '⇚';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Veja as Pseudo</h1>
+    <div>
+        Passe o mouse aqui
+        <p>OPA OLHA SÓ</p>
+    </div>
+    <ul>
+        <li><a href="https://github.com/genilsonf" target="_blank">Repositório GitHub</a></li>
+        <li class='especial'><a href="https://foradacova.wordpress.com" target="_blank">Blog Fora da Cova</a></li>
+        <li><a href="https://www.behance.net/genilsonfelinto" target="_blank">Perfil no Behance</a></li>
+    </ul>
+</body>
+</html>

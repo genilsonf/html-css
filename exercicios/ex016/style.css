@@ -1,0 +1,57 @@
+/* Color Theme Swatches in Hex */
+@charset 'utf-8';
+
+/* Regras para uso de fontes externas, do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*Usando fontes inseridas na pasta do site.*/
+@font-face {
+    font-family: 'DmSerif';
+    src: url('DMSerifDisplay-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+* {
+    /*height: 100%;*/
+    font-family: arial, helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #F2F2F2, #F2DFBB, #F2C46D);
+}
+
+main {
+    background-color: whitesmoke;
+    width: 650px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #c7a15a;
+}
+
+h1{
+    text-align: center;
+    background-color: #58238C;
+    color: #ffcd70;
+    font-family: DmSerif;
+}
+
+h2{
+    color: #58238C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+}
+
+h2#domeio{
+    color: black;
+}
+
+p {
+    text-align: justify;
+    font-family: 'Work Sans', sans-serif;
+    font: normal;
+    text-indent: 20px;
+    font-weight: 300;
+}

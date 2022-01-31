@@ -1,0 +1,33 @@
+@charset 'UTF-8';
+
+body {
+    background-color: rgb(98, 158, 98);
+    text-align: justify;
+    font-family: Arial;
+    padding: 20px;
+}
+
+.topic{
+    font-family: Arial, Hel;
+    color: rgb(0, 82, 54);
+}
+
+.basic{
+    color:rgb(1, 81, 128);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.intermediate{
+    color: aquamarine;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.advanced{
+    color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.titulo{
+    background-color:rgb(0, 71, 6);
+    color: white;
+}
